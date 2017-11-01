@@ -209,6 +209,72 @@ td {
 a img {
   border: none;
 }
+.member-tearch-bg {
+  background: url("http://www.imooc.com/static/img/index/eliteTbg.jpg") center center no-repeat #f3f5f7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 30px 50px;
+}
+.member-tearch-avator {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+.member-tearch-info {
+  margin: 16px 0;
+}
+.member-tearch-info span {
+  padding: 0 16px;
+}
+.member-student-online {
+  padding: 8px;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 559px), screen and (max-height: 479px) {
+  .member-student-online {
+    grid-template-columns: 1fr;
+  }
+}
+.student-online-item {
+  border: 1px solid #e9e9e9;
+  padding: 16px;
+  margin: 8px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.student-online-avator {
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+}
+.student-online-info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
 input,
 button {
   margin: 0;
